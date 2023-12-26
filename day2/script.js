@@ -129,10 +129,15 @@
 
 //functions
 
-function sum(a,b){
-    // console.log(a+b);
-    return a+b;
-}
+// function sum(a,b){
+//     // console.log(a+b);
+//     return a+b;
+// }
 
-let asn = sum(2,4);
-console.log(asn);
+// let asn = sum(2,4);
+// console.log(asn);
+
+
+// scoping :- 
+// let var and const
+
