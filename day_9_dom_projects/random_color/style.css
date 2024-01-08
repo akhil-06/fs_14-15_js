@@ -1,0 +1,19 @@
+.color-conatiner{
+    background-color: cyan;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+
+#colorContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
