@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propagation of Events</title>
+    <style>
+        #div1{
+            background-color: lightgreen;
+            padding: 25px;
+            border: 1px solid black;
+        }
+
+        #div2{
+            background-color: yellow;
+            padding: 25px;
+            border: 1px solid black;
+        }
+
+        #div3{
+            background-color: cyan;
+            padding: 25px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        Grand Parent 
+        <div id="div2">
+            Parent 
+            <div id="div3">
+                Children
+            </div>
+         </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
